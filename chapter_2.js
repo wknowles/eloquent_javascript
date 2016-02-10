@@ -1,10 +1,10 @@
-// Excaercise 2.2 Fizzbuzz
+// Exercise 2.2 Fizzbuzz
 
 for (var line = "#"; line.length < 8; line += "#")
   console.log(line);
 
 
-// Excaercise 2.2 Fizzbuzz
+// Exercise 2.2 Fizzbuzz
 
 for ( i = 1; i <= 100 ; i++){
  if( !(i % 5) && !(i % 3 )){
@@ -19,7 +19,7 @@ for ( i = 1; i <= 100 ; i++){
 }
 
 
-//Excercise 2.3 Chessboard
+//Exercise 2.3 Chess board
 
 var white = " #";
 var black = "# ";
