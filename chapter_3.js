@@ -21,7 +21,6 @@ console.log(min(0, -10));
 
 
 // Exercise 3.2 Recursion
-// Your code here.
 function isEven(n){
   if (n === 0 )
       return true;
@@ -40,3 +39,32 @@ console.log(isEven(75));
 // → false
 console.log(isEven(-1));
 // → false
+
+
+// Exercise 3.3 Bean Counting
+// For the first part of the exercise
+function countBs(string){
+  var counter = 0;
+  for (var stringCounter = 0; stringCounter < string.length; stringCounter ++){
+  if (string.charAt(stringCounter) === "B"){
+      (counter += 1);
+    }
+  }
+  return counter;
+}
+
+// The second part of the exercise requires a new parameter
+function countChar(string, char){
+  var counter = 0;
+  for (var stringCounter = 0; stringCounter < string.length; stringCounter ++){
+  if (string.charAt(stringCounter) === char){
+      (counter += 1);
+    }
+  }
+  return counter;
+}
+
+console.log(countBs("BBC"));
+// → 2
+console.log(countChar("kakkerlak", "k"));
+// → 4
